@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redux-frontend
+  labels:
+    app: redux-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: redux-frontend
+  template:
+    metadata:
+      labels:
+        app: redux-frontend
+    spec:
+      containers:
+      - name: redux-frontend
+        image: your-dockerhub-user/redux-frontend:latest
+        ports:
+        - containerPort: 5173
