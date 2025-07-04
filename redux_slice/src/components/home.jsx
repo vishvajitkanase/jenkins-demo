@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-slate-500 flex flex-col md:flex-row px-4 py-16">
       <div className="max-w-5xl mx-auto text-center md:text-left flex-1">
-        <h1 className="text-5xl font-bold text-white mb-4">My Inventory Management System</h1>
+        <h1 className="text-5xl font-bold text-white mb-4">Smart Inventory Management System</h1>
         <p className="text-2xl text-white max-w-2xl mx-auto md:mx-0 mb-12">
           The intelligent way to track, manage, and optimize your inventory
         </p>
