@@ -4,6 +4,7 @@ FROM node:18-alpine
 WORKDIR /app
 MAINTAINER   user1
 
+
 # Copy files from redux_slice into container's /app/
 COPY redux_slice/package*.json ./
 
