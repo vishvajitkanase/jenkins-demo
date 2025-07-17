@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: redux-frontend
-        image: your-dockerhub-user/redux-frontend:latest
+        image: vishvajitkanase/jenkins-demo:latest
         ports:
         - containerPort: 5173
